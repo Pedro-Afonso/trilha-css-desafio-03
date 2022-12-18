@@ -1,0 +1,57 @@
+.c-navbar {
+  grid-area: navbar;
+
+  height: 100%;
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.4rem;
+}
+
+.c-navbar__left {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.c-navbar__left img {
+  cursor: pointer;
+}
+
+.c-navbar__left button {
+  background: transparent;
+  cursor: pointer;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: none;
+}
+
+.c-navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.c-navbar__center {
+  display: flex;
+  width: auto;
+  border: 1px solid #ccc;
+}
+
+.c-navbar__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 6rem;
+  height: 4rem;
+  border-left: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.c-navbar__search img {
+  height: 2.4rem;
+  width: 2.4rem;
+}

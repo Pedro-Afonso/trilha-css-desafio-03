@@ -1,0 +1,39 @@
+.c-main__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 26.2rem);
+  grid-auto-flow: row;
+}
+
+.c-main__card {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-main__card img {
+  margin-bottom: 1.6rem;
+}
+
+.c-main__channel {
+  display: flex;
+  gap: 1rem;
+}
+
+.c-main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c-main__text h2 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+.c-main__text p {
+  font-size: 1.4rem;
+  color: #515151;
+  line-height: 1.6rem;
+  font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.c-aside__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.c-aside__item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+
+.c-aside__list .c-aside__item:first-child {
+  font-weight: 700;
+}
